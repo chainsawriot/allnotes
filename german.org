@@ -1,0 +1,38 @@
+* Note 1							      :tense:
+將來式一號句型：  ich werde dich immer lieben. 排最尾的動辭要轉 Infinitiv 。
+* Note 2							 :expression:
+德文表達六點半是要寫成「半七」。 halb sieben.
+* Note 3					     :expression:falsefriend:
+德文 fast 是指 almost，快是 schnell 
+* Note 4							:preposition:
+通常涉及位置的介詞都是跟 Dativ. Ich (verb) vor(前)/neben(近)/an(靠)/bei(旁)/hinter(後)/in(在)/auf(上)/über(跨)/unter(底)/zwischen dem auto.
+女der/男無dem
+* Note 5						   :expression:modal:
+情態動詞（können/möchten/sollen 之類）跟主語變化，情態動詞形容的動詞要用Infinitiv放在最尾。
+Ich kann nicht es sehen.
+Möchtest du etwas trinken?
+* Note 6							       :case:
+Die Äpfel der Mädchen sind rot.
+這句應如何理解。蘋果是主語，女孩擁有蘋果，是Genitiv。女孩Mädchen可作單或眾，而這句是眾數，因為女孩單數為中性，定冠詞das轉genitiv應為des。der是Genitiv眾數的定冠詞。
+* Note 7							      :tense:
+完成式 perfect tense. 是用於描述已發生的事態，用法是
+（主語）（haben/sein）（其他）（過去分詞）。過去分詞通常以 ge- 開頭。例：
+Ich habe getanzt 
+Wir sind mit dem Bus gefahren.
+* Note 8						:question:expression:
+wo (where) 可加介詞變成其他question words.
+Woher? (邊度嚟） wohin? （去邊度）wofür? （用嚟做乜）worüber? （關於乜嘢？）
+
+例： Woher kommst du? (你邊度架？）
+* Note 9					       :expression:adjective:
+冠詞和形容詞的格和性別要對位。例如
+Er mag den deutschen Wein.
+Mag 之後是 direct object ， Wein 為陽性，故此冠詞 (den) 和形容詞 (deutschen) 都用陽性 akk 格。
+* Note 10							 :expression:
+德文的 haben 純粹指擁有的意思。故此 Ich habe Brot 只是指我擁有麵包，而沒有英文 have 的食用意思。故此，如果要表達飲食，包括食用早午晚餐，要直接用 essen 和 trinken 。
+* Note 11							       :case:
+如果想表達我個人性格好悶，我是主語， Ich bin langweilig 。如果想表達，我現在好悶，那我是無辜捲入悶氣之中，是 indirect object ，所以要用 dative ， Mir ist langweilig.
+* Note 12					       :preposition:mnemonic:
+所有要用 Dative 的介詞可以用藍色多瑙河唱出來 Aus- außer-bei-mit nach-seit von-zu
+* Note 13						   :article:mnemonic:
+記下德文四格冠詞、形容詞等就名詞性別變化規則，是先記Nom的Der Die Das 。Akk只陽性會轉成 -en 尾。Dat記憶方法是記住 him/her ，陽m尾、陰er尾。Gen是記 his/her ，陽s尾、陰er尾。無性在Dat/Gen跟陽性。
