@@ -1,0 +1,10 @@
+1. elisp 只有 t 和 nil 。用 (null) 來測試真假。
+#+BEGIN_SRC emacs-lisp 
+(null nil)
+#+END_SRC
+
+2. empty list 也是 nil
+#+BEGIN_SRC emacs-lisp
+(equal nil '())
+#+END_SRC
+
