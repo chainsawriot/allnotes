@@ -36,3 +36,11 @@ Mag 之後是 direct object ， Wein 為陽性，故此冠詞 (den) 和形容詞
 所有要用 Dative 的介詞可以用藍色多瑙河唱出來 Aus- außer-bei-mit nach-seit von-zu
 * Note 13						   :article:mnemonic:
 記下德文四格冠詞、形容詞等就名詞性別變化規則，是先記Nom的Der Die Das 。Akk只陽性會轉成 -en 尾。Dat記憶方法是記住 him/her ，陽m尾、陰er尾。Gen是記 his/her ，陽s尾、陰er尾。無性在Dat/Gen跟陽性。
+* Note 14							  :konjuntiv:
+德文點菜基本上有兩種講法，一種是
+Ich möchte einen Kaffee.
+注意是咖啡是 akk object。另一種是
+Ich hätte gerne einen Kaffee.
+其實兩種講法都是用上了 Konjuntiv 語法，möchte 和 hätte 原字為 mögen 和 haben ，有如英語的假設語氣（ subjunctive mood ）。
+而其實，甚至可以講：
+Einen Kaffee, bitte.

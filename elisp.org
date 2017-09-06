@@ -1,10 +1,75 @@
-1. elisp 只有 t 和 nil 。用 (null) 來測試真假。
+- elisp 只有 t 和 nil 。用 (null) 來測試真假。
 #+BEGIN_SRC emacs-lisp 
 (null nil)
 #+END_SRC
 
-2. empty list 也是 nil
+- empty list 也是 nil
 #+BEGIN_SRC emacs-lisp
 (equal nil '())
 #+END_SRC
 
+- cons 和 add-to-list 分別是 add-to-list 是 mutate
+
+#+BEGIN_SRC emacs-lisp
+(setq my-list '(1 2 3))
+(add-to-list 'my-list 4)
+my-list
+(cons 5 my-list)
+my-list
+#+END_SRC
+
+- 用 setq 去建立 variable ，用 let 建立 local bindings.
+
+#+BEGIN_SRC emacs-lisp
+(setq mylist '(1 2 3 4))
+(dolist (pizza mylist)
+  (when (= (mod pizza 2) 0)
+    (print pizza)))
+(defun sum-evens (some-list)
+  (let ((sum 0))
+    (dolist (element some-list)
+      (when (= (mod element 2) 0)
+	(setq sum (+ sum element))))
+    sum))
+
+(sum-evens mylist)
+#+END_SRC
+
+- 任何 elisp function 的名稱按 C-h f 會彈出 help
+
+- interactive 就有如 export 該 function 到 workspace ，可用 M-x 啟動。
+
+#+BEGIN_SRC emacs-lisp
+(def c-words ()
+(interactive))
+#+END_SRC
+
+- 可用 save-excursion 儲存現有 point 位置
+
+無使用 save-excursion 執行後會去到 buffer 最後
+
+#+BEGIN_SRC emacs-lisp
+(defun count-words2 ()
+  (interactive)
+  (let ((total-words 0))
+    (goto-char (point-min))
+    (while (forward-word)
+      (setq total-words (+ total-words 1)))
+    (message (format "Words in Buffer: %s" total-words))
+    total-words
+    ))
+#+END_SRC
+
+使用後會停留在原位
+
+#+BEGIN_SRC emacs-lisp
+(defun count-words3 ()
+  (interactive)
+  (let ((total-words 0))
+    (save-excursion
+    (goto-char (point-min))
+    (while (forward-word)
+      (setq total-words (+ total-words 1))))
+    (message (format "Words in Buffer: %s" total-words))
+    total-words))
+#+END_SRC
